@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'mvn-local'   // Name same hona chahiye jo Global Tool Config me diya tha
+        maven 'maven-local'   // Name same hona chahiye jo Global Tool Config me diya tha
         jdk 'jdk-local'
     }
 
