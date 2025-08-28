@@ -3,9 +3,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "main" ]   # main branch pe trigger hoga
+    branches: [ "abhishek" ]   # main branch pe trigger hoga
   pull_request:
-    branches: [ "main" ]
+    branches: [ "abhishek" ]
 
 jobs:
   build:
