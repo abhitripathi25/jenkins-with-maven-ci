@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven3'   // Name same hona chahiye jo Global Tool Config me diya tha
-        jdk 'JDK17'
+        maven 'mvn-local'   // Name same hona chahiye jo Global Tool Config me diya tha
+        jdk 'jdk-local'
     }
 
     stages {
